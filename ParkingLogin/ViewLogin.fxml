@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="621.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ParkingLogin.ViewLoginController">
+   <children>
+      <ImageView fitHeight="417.0" fitWidth="634.0" layoutX="-8.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Gadi1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="29.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Screen Name" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="55.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="29.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pass Code" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <TextField fx:id="ScName" layoutX="162.0" layoutY="138.0" />
+      <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="174.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Car/Ramlal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Car/cooltext331400606064638.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="35.0" layoutX="407.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Car/T.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="118.0" layoutX="186.0" layoutY="224.0" onMouseClicked="#Roarr" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Car/Roar.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbl" layoutX="99.0" layoutY="268.0" prefHeight="35.0" prefWidth="250.0" textAlignment="CENTER" textFill="#030825">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="PassCode" layoutX="162.0" layoutY="180.0" />
+   </children>
+</AnchorPane>
