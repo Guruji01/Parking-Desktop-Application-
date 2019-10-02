@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="506.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewParking.ViewCarController">
+   <children>
+      <ImageView fitHeight="198.0" fitWidth="357.0" layoutX="61.0" layoutY="232.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#HoursCall" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Boo4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="109.0" layoutX="21.0" layoutY="414.0" onMouseClicked="#RoutintList" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@list.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="362.0" layoutY="414.0" onMouseClicked="#BillList" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@list%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="188.0" layoutX="312.0" layoutY="246.0" onMouseClicked="#Paymentsssss" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@paisa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="334.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@4.jpg" />
+         </image>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="284.0" layoutX="205.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cool-Text-331111570822860.png" />
+         </image>
+         <effect>
+            <Glow level="0.2" />
+         </effect>
+      </ImageView>
+      <Separator layoutX="20.0" layoutY="363.0" prefHeight="69.0" prefWidth="466.0">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Separator>
+           <ImageView fitHeight="155.0" fitWidth="146.0" layoutX="6.0" layoutY="232.0" onMouseClicked="#Entryyy" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@main.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="94.0" layoutX="25.0" layoutY="485.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext331352449181860.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="94.0" layoutX="369.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext331352636361549.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="20.0" layoutY="155.0" prefHeight="120.0" prefWidth="466.0">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Separator>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="183.0" layoutY="410.0" onMouseClicked="#hourlList" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@list%20-%20Copy%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="51.0" fitWidth="85.0" layoutX="194.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext331352619951531.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="101.0" layoutX="402.0" layoutY="105.0" onMouseClicked="#Charges" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yes4.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
