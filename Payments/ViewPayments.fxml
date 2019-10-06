@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="655.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Payments.ViewPaymentsController">
+   <children>
+      <ImageView fitHeight="309.0" fitWidth="462.0" layoutX="287.0" layoutY="110.0" onMouseClicked="#HPayments" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ok.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="383.0" layoutX="107.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cool-Text-331343988613227.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="308.0" layoutX="14.0" layoutY="220.0" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#MPayments" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cdriver.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="134.0" layoutX="105.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext331347460564233.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="152.0" layoutX="395.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext331347434984004.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="328.0" layoutY="101.0" orientation="VERTICAL" prefHeight="341.0" prefWidth="26.0">
+         <effect>
+            <Glow level="1.0" />
+         </effect></Separator>
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
