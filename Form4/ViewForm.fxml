@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="452.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Form4.ViewFormController">
+   <children>
+      <ImageView fitHeight="107.0" fitWidth="367.0" layoutX="36.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Car/cooltext332206491452444.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tableview" layoutX="13.0" layoutY="252.0" prefHeight="244.0" prefWidth="427.0" />
+      <Button layoutX="186.0" layoutY="516.0" mnemonicParsing="false" onMouseClicked="#doExcel" style="-fx-background-color: green;" text="Export to Excel">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="338.0" layoutY="145.0" mnemonicParsing="false" onAction="#doFindDos" style="-fx-background-color: orange;" text="Find" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="186.0" layoutY="202.0" mnemonicParsing="false" onAction="#doShowAll" style="-fx-background-color: crimson;" text="Show All">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="46.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start Date" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Separator layoutX="7.0" layoutY="85.0" prefHeight="34.0" prefWidth="426.0">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Separator>
+      <DatePicker fx:id="Dos" layoutX="150.0" layoutY="145.0" />
+   </children>
+</AnchorPane>
