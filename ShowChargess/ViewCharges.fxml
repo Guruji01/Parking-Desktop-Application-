@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShowChargess.ViewChargesController">
+   <children>
+      <ImageView fitHeight="63.0" fitWidth="235.0" layoutX="211.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Charges.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="243.0" layoutX="134.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Ramal's%20Bro.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="27.0" layoutY="181.0" prefHeight="39.0" prefWidth="547.0">
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Separator>
+      <Text fill="WHITE" layoutX="141.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bike" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="227.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Car" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="301.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Truck" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="227.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="405.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ship" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="498.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Others" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="141.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="700" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="211.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1200" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="300.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2000" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="399.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="498.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="500" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="141.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="216.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="291.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="393.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="498.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER" wrappingWidth="57.51562491059303">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="14.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Per/Month" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Per/Hour" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Text>
+      <ImageView fitHeight="57.0" fitWidth="138.0" layoutX="7.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Type.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="507.0" layoutX="47.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Moto.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
